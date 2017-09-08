@@ -15,8 +15,8 @@ function build(srcPath, callback){
   var distDir = path.join(obj.dir, 'dist');
   var distPath = path.join(distDir, baseName + '.js');
   var distMinPath = path.join(distDir, baseName + '-min.js');
-  console.log('distPath', distPath)
-  console.log('distMinPath', distMinPath)
+  // console.log('distPath', distPath)
+  // console.log('distMinPath', distMinPath)
   function writeDist(cb){
     fs.writeFile(distPath, wraped, cb);
   }
