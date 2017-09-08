@@ -5,7 +5,7 @@ var build = require('./index'); //Just a sas's demo.
 
 args.shift();
 var param = args[0];
-
+param = param || 'index.js';
 process.stdout.write('dist wrap build...');
 build(param, function(err){
   if(err){
