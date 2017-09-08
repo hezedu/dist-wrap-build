@@ -1,0 +1,35 @@
+{
+  "name": "dist-wrap-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "distWrapBuild": "bin.js"
+  },
+  "keywords": [
+    "front-end",
+    "dist",
+    "wrap",
+    "amd",
+    "module",
+    "global"
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hezedu/dist-wrap-build.git"
+  },
+  "author": {
+    "name": "Du Wei"
+  },
+  "license": "MIT",
+  "email": "tianxiazhizhong@gmail.com",
+  "description": "dist-wrap-build",
+  "bugs": {
+    "url": "https://github.com/hezedu/dist-wrap-build/issues"
+  },
+  "dependencies": {
+    "dist-wrap": "^2.0.1",
+    "sas": "^3.0.4",
+    "uglify-js": "^3.0.28"
+  }
+}
