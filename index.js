@@ -29,7 +29,5 @@ function build(srcPath, callback){
     writeMinDist
   }, callback)
 }
-build('./index.js', function(){
-  console.log(arguments);
-})
+
 module.exports = build;
