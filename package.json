@@ -11,7 +11,7 @@
     "wrap",
     "amd",
     "module",
-    "global"
+    "global",
     "build"
   ],
   "repository": {
