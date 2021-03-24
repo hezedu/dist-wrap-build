@@ -1,13 +1,13 @@
 {
   "name": "dist-wrap-build",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "index.js",
   "files": [
     "index.js",
-    "bin.js"
+    "cli.js"
   ],
   "bin": {
-    "distWrapBuild": "cli.js"
+    "dist-wrap-build": "cli.js"
   },
   "keywords": [
     "front-end",

@@ -7,7 +7,7 @@ var mkdirp = require('mkdirp');
 function build(srcPath, opt, callback){
   srcPath = path.resolve(srcPath);
   var obj = path.parse(srcPath);
-  var onlyMin = opt.onlyMin || true;
+  var onlyMin = opt.onlyMin === undefined ? true : opt.onlyMin;
   var baseName = path.basename(srcPath, '.js');
 
   var source = fs.readFileSync(srcPath, 'utf-8');

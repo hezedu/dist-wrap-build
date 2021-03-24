@@ -6,7 +6,8 @@ var build = require('./index'); //Just a sas's demo.
 args.shift();
 var param = args[0];
 param = param || 'index.js';
-var onlyMin = args[1] === '1' ? false : true;
+var onlyMin = args[1] === undefined ? false : true;
+console.log('onlyMin', onlyMin)
 process.stdout.write('dist wrap build...');
 build(param, {onlyMin}, function(err){
   if(err){

@@ -4,7 +4,7 @@ COMMONJS简单的包装成前端能**AMD**加载或直接**src**文件并压缩�
 ## 安装
 `npm install dist-wrap-build -g`
 ## 使用
-`distWrapBuild you_file.js(默认index.js)`
+`dist-wrap-build you_file.js(默认index.js)`
 ## 结果
 
 `dist/`
